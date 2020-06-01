@@ -50,3 +50,8 @@ nav ul li
 {
   margin:40px;
 }
+
+.active
+{
+font-weight: bolder;
+}
