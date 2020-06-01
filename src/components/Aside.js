@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
 import { Link, animateScroll as scroll } from "react-scroll";
+import profilepic from '../img/profile_pic.jpg';
+import ReactTypingEffect from 'react-typing-effect';
 
-export default class ProjectNav extends Component {
+export default class Aside extends Component {
 
   scrollToTop = () => {
   scroll.scrollToTop();
@@ -10,66 +12,74 @@ export default class ProjectNav extends Component {
 
   render() {
     return (
+      <aside>
       <nav className="nav" id="navbar">
         <div className="nav-content">
-          <img
-            src={logo}
-            className="nav-logo"
-            alt="Logo."
-            onClick={this.scrollToTop}
-          />
-          <ul className="nav-items">
+          <ul className="nav-items"> 
             <li className="nav-item">
             <Link
                 activeClass="active"
-                to="section1"
+                to="absoluteJAMS"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-              Section 1
+              absoluteJAMS
               </Link>
               </li>
             <li className="nav-item">
               <Link
                 activeClass="active"
-                to="section2"
+                to="gigglelibs"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-              Section 2
+              GiggleLibs
               </Link>
               </li>
             <li className="nav-item">
             <Link
                 activeClass="active"
-                to="section3"
+                to="yournewmusic"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-              Section 3
+              Your New Music
               </Link>
               </li>
             <li className="nav-item">
             <Link
                 activeClass="active"
-                to="section1"
+                to="dailypaintracker"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-              Section 4
+              Daily Pain Tracker
+              </Link>
+              </li>
+              <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="chicagotowfind"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Chicago Tow Find
               </Link>
               </li>
             </ul>
             </div>
             </nav>
+            </aside>
     );
   }
 }

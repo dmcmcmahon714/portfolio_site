@@ -1,24 +1,29 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Home from './contents/Home';
+import Nav from './components/Nav';
 import About from './contents/About';
 import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
-import ProjectNav from './components/ProjectNav'
-import Section from "./components/Section";
+import Aside from './components/Aside'
+
 import dummyText from "./DummyText";
+import Header from './components/Header'
+import Main from './contents/Main'
 
 function App() {
 
   return (
+
       <Router>
         <div className="App">
-          <Navbar />
+        <div className="container">
+        <Header />
+          <Nav />
+          <Main />
           <Route exact path="/">
-          <Home />
+          
         </Route>
         <Route path="/about">
         <About />
@@ -33,7 +38,9 @@ function App() {
         <Contact />
         </Route>
         </div>
+        </div>
       </Router>
+
       
   )
 }
