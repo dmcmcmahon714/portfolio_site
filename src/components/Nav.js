@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navitem from './Navitem';
 // We'll code Navitem.js later for now let's focus on Navbar.js
 // “Navitem” is the sub-component.
-class Navbar extends Component {
+class Nav extends Component {
     constructor(props)
     {
         super(props);
@@ -36,4 +36,4 @@ class Navbar extends Component {
         }
     }
     
-export default Navbar
+export default Nav

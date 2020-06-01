@@ -7,7 +7,6 @@ import Education from './contents/Education';
 import Skills from './contents/Skills';
 import Contact from './contents/Contact';
 import Aside from './components/Aside'
-
 import dummyText from "./DummyText";
 import Header from './components/Header'
 import Main from './contents/Main'
@@ -20,10 +19,10 @@ function App() {
         <div className="App">
         <div className="container">
         <Header />
-          <Nav />
+          
           <Main />
           <Route exact path="/">
-          
+        <Nav />  
         </Route>
         <Route path="/about">
         <About />

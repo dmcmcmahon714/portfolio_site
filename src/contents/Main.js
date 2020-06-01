@@ -20,6 +20,7 @@ class Main extends Component {
             
         <main>
         <nav className="nav" id="navbar">
+        <h1>Click to see some of my work:</h1>
         <div className="nav-content">
           <ul className="nav-items"> 
             <li className="nav-item">
