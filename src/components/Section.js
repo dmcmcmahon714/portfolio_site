@@ -1,6 +1,12 @@
-  import React from "react";
+import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
+import backtotop from '../img/backtotop.png'; 
+import Nav from '../components/Nav'
 
-export default function Section({ title, subtitle, dark, id, link, screenshot, repo, backendrepo, schoolone, datesone, programtwo, schooltwo, datestwo, skillone, skilltwo, skillthree, skillfour, skillfive, skillsix, skillseven, skilleight, skillnine, skillten, skilleleven, skilltwelve, skillthirteen  }) {
+
+export default function Section({ title, subtitle, dark, id, link, screenshot, repo, backendrepo, schoolone, datesone, programtwo, schooltwo, datestwo, skillone, skilltwo, skillthree, skillfour, skillfive, skillsix, skillseven, skilleight, skillnine, skillten, skilleleven, skilltwelve, skillthirteen, backtotop  }) {
+
+
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
@@ -28,6 +34,8 @@ export default function Section({ title, subtitle, dark, id, link, screenshot, r
         <p>{repo}</p>
         <p>{backendrepo}</p>
         <p>{screenshot}</p>
+        <p>{backtotop}</p>
+       
       </div>
     </div>
   );

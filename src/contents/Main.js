@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 //importing the picture as "profilepic".
 import profilepic from '../img/profile_pic.jpg';
-import ReactTypingEffect from 'react-typing-effect';
 import Social from '../components/Social'
 import Aside from '../components/Aside'
 import Section from "../components/Section";
@@ -12,134 +11,25 @@ import YournewmusicSS from '../img/yournewmusic.png'
 import PaintrackerSS from '../img/paintrackerss.png'
 import ChicagotowfindSS from '../img/chicagotowfind.png'
 import { Link, animateScroll as scroll } from "react-scroll";
+import backtotop from '../img/backtotop.png'; 
 
 
 class Main extends Component {
+
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
     render() {
         return (
             
         <main>
-        <nav className="nav" id="navbar">
-        <div className="nav-content">
-          <ul className="nav-items"> 
-          <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              About
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="education"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Education
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Skills
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Contact
-              </Link>
-              </li>
-            <h1>Projects:</h1>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="absoluteJAMS"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              absoluteJAMS
-              </Link>
-              </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="gigglelibs"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              GiggleLibs
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="yournewmusic"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Your New Music
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="dailypaintracker"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Daily Pain Tracker
-              </Link>
-              </li>
-              <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="chicagotowfind"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Chicago Tow Find
-              </Link>
-              </li>
-            </ul>
-            </div>
-            </nav>
         <Section
             title="Dan McMahon - Full Stack Web Developer"
             subtitle="I am a lifelong musician with a passion for technology’s role in the creative field. Troubleshooting and getting to the bottom of roadblocks to peoples’ artistry gives me a deep sense of satisfaction. While I have significant experience in a professional office setting performing customer-service oriented legal work, I have also been obsessed with creating digital music since I could first afford a computer. Additionally, my love of people and strict yoga & meditation practices have allowed me to help people realize their creative goals while maintaining a peaceful, even temper. I am currently developing my hard technology skills, so I can come to an even deeper understanding of these systems."
             dark={true}
             id="about"
-            />
+            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+          />
         <Section
             title="Education"
             subtitle="Software Engineering Immersive."
@@ -150,6 +40,7 @@ class Main extends Component {
             programtwo="B.A. in Communiciations - Journalism"
             schooltwo="DePaul University"
             datestwo="September 2009 - January 2011"
+            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
             />
         <Section
             title="Skills"
@@ -169,6 +60,7 @@ class Main extends Component {
             skilleleven="MongoDB"
             skilltwelve="Writing"
             skillthirteen="Communication"
+            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
             />
         <Section
             title="Contact"
@@ -178,6 +70,7 @@ class Main extends Component {
             repo=<a href="https://www.linkedin.com/in/danmcmahondev/">LinkedIn</a>
             dark={true}
             id="contact"
+            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
             />
         <Section
             title="absoluteJAMS"
@@ -187,6 +80,7 @@ class Main extends Component {
             repo=<a href="https://github.com/dmcmcmahon714/finalprojectrebuild">Github Repository</a>
             screenshot=<img src={AJscreenshot} alt="absoluteJAMS" width="900" height="600"/>
             link=<a href="https://protected-oasis-67383.herokuapp.com/">Demo</a>
+            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
             />
         <Section
           title="Gigglelibs"
@@ -197,6 +91,7 @@ class Main extends Component {
           backendrepo=<a href="https://github.com/ty18881/Phoenix-Rising-Project-3-BE">Github Repository - Back End</a>
           screenshot=<img src={GGscreenshot} alt="Gigglelibs" width="900" height="600"/>
           link=<a href="https://gigglelibs.herokuapp.com/">Demo</a>
+          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
         <Section
           title="Your New Music"
@@ -207,6 +102,7 @@ class Main extends Component {
           backendrepo=<a href="https://github.com/dmcmcmahon714/new_music_api">Github Repository - Back End</a>
           screenshot=<img src={YournewmusicSS} alt="Gigglelibs" width="900" height="650"/>
           link=<a href="https://music-release-app.herokuapp.com/">Demo</a>
+          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
         <Section
           title="Daily Pain Tracker"
@@ -216,6 +112,7 @@ class Main extends Component {
           repo=<a href="https://github.com/dmcmcmahon714/seir-projects2">Github Repository</a>
           screenshot=<img src={PaintrackerSS} alt="Gigglelibs" width="900" height="800"/>
           link=<a href="https://fierce-scrubland-02207.herokuapp.com/">Demo</a>
+          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
         <Section
           title="Chicago Tow Find"
@@ -225,6 +122,7 @@ class Main extends Component {
           repo=<a href="https://github.com/dmcmcmahon714/Project-1">Github Repository</a>
           screenshot=<img src={ChicagotowfindSS} alt="Gigglelibs" width="900" height="1250"/>
           link=<a href="https://dmcmcmahon714.github.io/Project-1/">Demo</a>
+          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
       </main>
           

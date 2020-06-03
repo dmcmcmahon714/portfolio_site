@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import logo from "../logo.svg";
-import { Link, animateScroll as scroll } from "react-scroll";
+
 import profilepic from '../img/profile_pic.jpg';
-import ReactTypingEffect from 'react-typing-effect';
+
 
 export default class Header extends Component {
 
-  scrollToTop = () => {
-  scroll.scrollToTop();
-  };
+
 
   render() {
     return (

@@ -16,8 +16,8 @@ h1 {
 
   grid-template-areas:
     "header header header"
-    "content content content"
-    "footer footer footer";
+    "nav nav nav"
+    "content content content";
   grid-template-columns: 30% 1fr 20%;
   grid-template-rows: auto 1fr 200px;
   grid-gap: 10px;
@@ -35,6 +35,7 @@ nav {
   grid-area: nav;
   margin-left: 0.5rem;
   background-color: var(--oasis-green);
+  
 }
 
 main {
@@ -105,22 +106,45 @@ body {
 }
 nav
 {
-  padding:60px 30px 0px 30px ;
+  padding: 30px 30px 30px ;
   flex:var(--sidebar-flex);
   background: rgb(238,103,143);
   background-image: linear-gradient(to bottom, #ff9c8c, #ff9c78, #ffa061, #ffa647, #f5ae28);
 }
 
 nav ul{
-  font-size:var(--fontsize-nav) ;
-  text-align: center;
-  list-style-type: none;
-  text-decoration: none;
-  color: white !important;
+    display: flex;
+    align-items: stretch; /* Default */
+    justify-content: space-between;
+    width: 100%;
+    
+    padding: 0;
+
 }
 nav ul li
 {
-  margin:40px;
+    display: block;
+    flex: 0 1 auto; /* Default */
+    list-style-type: none;
+    padding-right: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  
+
+  
+}
+
+p.projects {
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+
+ul.projects {
+  margin-bottom: 0;
+}
+
+.backtotop {
+  margin-top: 0px;
 }
 
 a
@@ -138,6 +162,11 @@ a:hover, .link1 a:focus, .link1 a:active {
     background-color: #b4e7f8;
 }
 
+.nav-item1 {
+  margin-top: 25px;
+
+}
+
 
 .heading {
 	display: flex;
@@ -150,7 +179,9 @@ a:hover, .link1 a:focus, .link1 a:active {
 }
 
 #navbar.nav {
-	padding-bottom: 2em;
+	padding-bottom: 0;
+  padding-right:  75px;
+  padding-left: 75px;
 }
 
 .profilepic {

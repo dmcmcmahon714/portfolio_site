@@ -1,36 +1,130 @@
 import React, { Component } from 'react';
-import Navitem from './Navitem';
+import { Link, animateScroll as scroll } from "react-scroll";
+import backtotop from '../img/backtotop.png'; 
 // We'll code Navitem.js later for now let's focus on Navbar.js
 // “Navitem” is the sub-component.
 class Nav extends Component {
-    constructor(props)
-    {
-        super(props);
-        this.state={
-            'NavItemActive':''
-        }
-    }
-
-    activeitem=(x)=>
-    {
-        if(this.state.NavItemActive.length>0){
-            document.getElementById(this.state.NavItemActive).classList.remove('active');
-        }
-        this.setState({'NavItemActive':x},()=>{
-            document.getElementById(this.state.NavItemActive).classList.add('active');
-        });
-    };
-   
+    scrollToTop = () => {
+    scroll.scrollToTop();
+  };
     render() {
         return (
-            <nav>
-            <ul>
-            <Navitem item="Home" tolink="/"  activec={this.activeitem}></Navitem>
-            <Navitem item="About" tolink="/about"  activec={this.activeitem}></Navitem>
-            <Navitem item="Education" tolink="/education"  activec={this.activeitem}></Navitem>
-            <Navitem item="Skills" tolink="/skills"  activec={this.activeitem}></Navitem>
-            <Navitem item="Contact" tolink="/contact"  activec={this.activeitem}></Navitem>
+        <nav className="nav" id="navbar">
+        <div className="nav-content">
+          <ul className="nav-items">
+          <li className="nav-item1">
+            <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              About
+              </Link>
+              </li>
+            <li className="nav-item1">
+            <Link
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Education
+              </Link>
+              </li>
+            <li className="nav-item1">
+            <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Skills
+              </Link>
+              </li>
+            <li className="nav-item1">
+            <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Contact
+              </Link>
+              </li>
+              </ul>
+            <ul className="projects"> 
+            <li><p className="projects">Projects:</p></li>
+            <li className="absolutejams">
+            <Link
+                activeClass="active"
+                to="absoluteJAMS"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              absoluteJAMS
+              </Link>
+              </li>
+            <li className="nav-item">
+              <Link
+                activeClass="active"
+                to="gigglelibs"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              GiggleLibs
+              </Link>
+              </li>
+            <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="yournewmusic"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Your New Music
+              </Link>
+              </li>
+            <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="dailypaintracker"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Daily Pain Tracker
+              </Link>
+              </li>
+              <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="chicagotowfind"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Chicago Tow Find
+              </Link>
+              </li>
             </ul>
+            </div>
             </nav>
             )
         }
