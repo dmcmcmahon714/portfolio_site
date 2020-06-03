@@ -20,9 +20,57 @@ class Main extends Component {
             
         <main>
         <nav className="nav" id="navbar">
-        <h1>Click to see some of my work:</h1>
         <div className="nav-content">
           <ul className="nav-items"> 
+          <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              About
+              </Link>
+              </li>
+            <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Education
+              </Link>
+              </li>
+            <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Skills
+              </Link>
+              </li>
+            <li className="nav-item">
+            <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Contact
+              </Link>
+              </li>
+            <h1>Projects:</h1>
             <li className="nav-item">
             <Link
                 activeClass="active"
@@ -86,6 +134,51 @@ class Main extends Component {
             </ul>
             </div>
             </nav>
+        <Section
+            title="Dan McMahon - Full Stack Web Developer"
+            subtitle="I am a lifelong musician with a passion for technology’s role in the creative field. Troubleshooting and getting to the bottom of roadblocks to peoples’ artistry gives me a deep sense of satisfaction. While I have significant experience in a professional office setting performing customer-service oriented legal work, I have also been obsessed with creating digital music since I could first afford a computer. Additionally, my love of people and strict yoga & meditation practices have allowed me to help people realize their creative goals while maintaining a peaceful, even temper. I am currently developing my hard technology skills, so I can come to an even deeper understanding of these systems."
+            dark={true}
+            id="about"
+            />
+        <Section
+            title="Education"
+            subtitle="Software Engineering Immersive."
+            dark={true}
+            id="education"
+            schoolone="General Assembly"
+            datesone="December 2019 - May 2020"
+            programtwo="B.A. in Communiciations - Journalism"
+            schooltwo="DePaul University"
+            datestwo="September 2009 - January 2011"
+            />
+        <Section
+            title="Skills"
+            dark={true}
+            id="skills"
+            skillone="HTML"
+            skilltwo="CSS"
+            skillthree="SCSS"
+            skillthree="JS"
+            skillfour="Node JS"
+            skillfive="React JS"
+            skillsix="Ruby"
+            skillseven="Ruby on Rails"
+            skilleight="JQUERY"
+            skillnine="PostgresQL"
+            skillten="Mongoose ODM"
+            skilleleven="MongoDB"
+            skilltwelve="Writing"
+            skillthirteen="Communication"
+            />
+        <Section
+            title="Contact"
+            subtitle="Email: danielrichardmcmahon@gmail.com."
+            skillone="Phone: +1(312)810-9540"
+            skilltwo=<a href="https://github.com/dmcmcmahon714">Github Page</a>
+            repo=<a href="https://www.linkedin.com/in/danmcmahondev/">LinkedIn</a>
+            dark={true}
+            id="contact"
+            />
         <Section
             title="absoluteJAMS"
             subtitle="This is a full stack web forum built with Ruby on Rails using the devise gem and PostgresQL.  Commenting and likes with full CRUD functionality make an ideal environment for music discussion."

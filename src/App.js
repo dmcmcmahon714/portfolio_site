@@ -19,23 +19,11 @@ function App() {
         <div className="App">
         <div className="container">
         <Header />
-          
           <Main />
           <Route exact path="/">
-        <Nav />  
+        
         </Route>
-        <Route path="/about">
-        <About />
-        </Route>
-        <Route path="/education">
-        <Education />
-        </Route>
-        <Route path="/skills">
-        <Skills />
-        </Route>
-        <Route path="/contact">
-        <Contact />
-        </Route>
+    
         </div>
         </div>
       </Router>
