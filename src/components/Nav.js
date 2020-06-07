@@ -12,7 +12,7 @@ class Nav extends Component {
         <nav className="nav" id="navbar">
         <div className="nav-content">
           <ul className="nav-items">
-          <li className="nav-item1">
+          <li className="about">
             <Link
                 activeClass="active"
                 to="about"
@@ -24,7 +24,7 @@ class Nav extends Component {
               About
               </Link>
               </li>
-            <li className="nav-item1">
+            <li className="education">
             <Link
                 activeClass="active"
                 to="education"
@@ -36,7 +36,7 @@ class Nav extends Component {
               Education
               </Link>
               </li>
-            <li className="nav-item1">
+            <li className="skills">
             <Link
                 activeClass="active"
                 to="skills"
@@ -48,7 +48,7 @@ class Nav extends Component {
               Skills
               </Link>
               </li>
-            <li className="nav-item1">
+            <li className="contact">
             <Link
                 activeClass="active"
                 to="contact"

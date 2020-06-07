@@ -20,23 +20,24 @@ h1 {
     "content content content";
   grid-template-columns: 30% 1fr 20%;
   grid-template-rows: auto 1fr 200px;
-  grid-gap: 10px;
+  grid-gap: 0px;
   height: 100vh;
+}
+
+.headerbackground {
+ width: 100%;
+ height: 100%;
 }
 
 header {
   grid-area: header;
-  background-color: var(--oasis-blue);
-  background-image: url("https://37871wefllb1ch69k30l1i9c-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/YogaAshram1.jpg");
-  background-size: 100%;
-}
-
-nav {
-  grid-area: nav;
-  margin-left: 0.5rem;
-  background-color: var(--oasis-green);
+  height: 102%;
+  padding: 0;
+  margin: 0;
   
 }
+
+
 
 main {
   grid-area: content;
@@ -109,7 +110,9 @@ nav
   padding: 30px 30px 30px ;
   flex:var(--sidebar-flex);
   background: rgb(238,103,143);
-  background-image: linear-gradient(to bottom, #ff9c8c, #ff9c78, #ffa061, #ffa647, #f5ae28);
+  background-color: #F0EDE4;
+  grid-area: nav;
+  border: solid 20px #B60452;
 }
 
 nav ul{
@@ -119,8 +122,8 @@ nav ul{
     width: 100%;
     
     padding: 0;
-
 }
+
 nav ul li
 {
     display: block;
@@ -129,8 +132,6 @@ nav ul li
     padding-right: 50px;
     padding-left: 20px;
     padding-bottom: 20px;
-  
-
   
 }
 
@@ -147,25 +148,49 @@ ul.projects {
   margin-top: 0px;
 }
 
-a
-{
-  text-decoration: none;
-  color: white;
-  border-bottom: .05em solid #b4e7f8;
-  box-shadow: inset 0 -0.05em 0 #b4e7f8;
-  color: inherit;
-  transition: background-color .25s cubic-bezier(.33, .66, .66, 1);
-  text-decoration: none;
-}
-
-a:hover, .link1 a:focus, .link1 a:active {
-    background-color: #b4e7f8;
+.contact {
+  margin-right: 8em;
 }
 
 .nav-item1 {
-  margin-top: 25px;
+  margin-left: 165px;
+  margin-bottom: 1em;
 
 }
+
+.skills {
+  margin-left: 2em;
+  margin-right: 6em;
+}
+
+.education {
+  margin-left: 2em;
+}
+
+.about {
+  margin-left: 16em;
+}
+
+a {
+    
+    background: #B60452;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: .7em;
+    padding: .5rem;
+    border: 0;
+    transition: all 0.5s;
+    border-radius: 10px;
+    width: auto;
+    position: relative;
+
+}
+
+a:hover {
+
+  
+}
+
 
 
 .heading {
