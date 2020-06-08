@@ -1,6 +1,22 @@
 import React, { Component } from 'react';
 //importing the picture as "profilepic".
 import profilepic from '../img/profile_pic.jpg';
+import GALOGO from '../img/GALOGO.png'
+import depaullogo from '../img/depaullogo.png'
+import htmllogo from '../img/htmllogo.png'
+import csslogo from '../img/csslogo.png'
+import scsslogo from '../img/scsslogo.png'
+import javascriptlogo from '../img/javascriptlogo.png'
+import nodejslogo from '../img/nodejslogo.png'
+import reactlogo from '../img/reactlogo.png'
+import rubylogo from '../img/rubylogo.png'
+import railslogo from '../img/railslogo.png'
+import jquerylogo from '../img/jquerylogo.png'
+import postgresqllogo from '../img/postgresqllogo.png'
+import mongooselogo from '../img/mongooselogo.png'
+import mongodblogo from '../img/mongodblogo.png'
+import githublogo from '../img/githublogo.png'
+import linkedinlogo from '../img/linkedin.png'
 import Social from '../components/Social'
 import Aside from '../components/Aside'
 import Section from "../components/Section";
@@ -24,43 +40,48 @@ class Main extends Component {
             
         <main>
         <Section
-            title="Education"
+            title=<h1 className="title1">Education</h1>
             subtitle="Software Engineering Immersive"
+            datesone="December 2019 - May 2020"
             dark={true}
             id="education"
-            schoolone="General Assembly"
-            datesone="December 2019 - May 2020"
+            schoolone=<img src={GALOGO}/>
             programtwo="B.A. in Communiciations - Journalism"
-            schooltwo="DePaul University"
+            schooltwo=<img src={depaullogo}/>
             datestwo="September 2009 - January 2011"
             backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
             />
         <Section
-            title="Skills"
+            title=<h1 className="title2">Skills</h1>
             dark={true}
             id="skills"
-            skillone="HTML"
-            skilltwo="CSS"
-            skillthree="SCSS"
-            skillthree="JS"
-            skillfour="Node JS"
-            skillfive="React JS"
-            skillsix="Ruby"
-            skillseven="Ruby on Rails"
-            skilleight="JQUERY"
-            skillnine="PostgresQL"
-            skillten="Mongoose ODM"
-            skilleleven="MongoDB"
+            skillone=<img src={htmllogo}/>
+            skilltwo=<img src={csslogo}/>
+            skillscss=<img src={scsslogo}/>
+            skillthree=<img src={javascriptlogo}/>
+            skillfour=<img src={nodejslogo}/>
+            skillfive=<img src={reactlogo}/>
+            skillsix=<img src={rubylogo}/>
+            skillseven=<img src={railslogo}/>
+            skilleight=<img src={jquerylogo}/>
+            skillnine=<img src={postgresqllogo}/>
+            skillten=<img src={mongooselogo}/>
+            skilleleven=<img src={mongodblogo}/>
             skilltwelve="Writing"
             skillthirteen="Communication"
-            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+            backtotop=<img src={backtotop} className="skills" alt="Logo" onClick={this.scrollToTop}/>
+            subtitle=""
+            schoolone=""
+            programtwo=""
+            schooltwo=""
+            datestwo=""
             />
         <Section
-            title="Contact"
-            subtitle="Email: danielrichardmcmahon@gmail.com."
-            skillone="Phone: +1(312)810-9540"
-            skilltwo=<a href="https://github.com/dmcmcmahon714">Github Page</a>
-            repo=<a href="https://www.linkedin.com/in/danmcmahondev/">LinkedIn</a>
+            title=<h1 className="title3">Contact</h1>
+            subtitle=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
+            skillone=<p className="phone">Phone: +1(312)810-9540</p>
+            linkedin=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
+            <a className="linklogos" href="https://github.com/dmcmcmahon714"><img alt="ghlogo" src={githublogo}/></a></div>
             dark={true}
             id="contact"
             backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>

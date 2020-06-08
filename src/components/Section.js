@@ -5,36 +5,39 @@ import Nav from '../components/Nav'
 
 
 
-export default function Section({ title, subtitle, dark, id, link, screenshot, repo, backendrepo, schoolone, datesone, programtwo, schooltwo, datestwo, skillone, skilltwo, skillthree, skillfour, skillfive, skillsix, skillseven, skilleight, skillnine, skillten, skilleleven, skilltwelve, skillthirteen, backtotop  }) {
+export default function Section({ title, subtitle, dark, id, link, screenshot, repo, backendrepo, schoolone, datesone, programtwo, schooltwo, datestwo, skillone, skilltwo, skillthree, skillfour, skillfive, skillsix, skillseven, skilleight, skillnine, skillten, skilleleven, skilltwelve, skillthirteen, backtotop, skillscss, github, linkedin  }) {
 
 
   return (
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
         <h1>{title}</h1>
-        <p>{subtitle}</p>
-        <p>{schoolone}</p>
-        <p>{datesone}</p>
-        <p>{programtwo}</p>
-        <p>{schooltwo}</p>
-        <p>{datestwo}</p>
-        <p>{skillone}</p>
-        <p>{skilltwo}</p>
-        <p>{skillthree}</p>
-        <p>{skillfour}</p>
-        <p>{skillfive}</p>
-        <p>{skillsix}</p>
-        <p>{skillseven}</p>
-        <p>{skilleight}</p>
-        <p>{skillnine}</p>
-        <p>{skillten}</p>
-        <p>{skilleleven}</p>
-        <p>{skilltwelve}</p>
-        <p>{skillthirteen}</p>
-        <p>{link}</p>
-        <p>{repo}</p>
-        <p>{backendrepo}</p>
-        <p>{screenshot}</p>
+        <p className="section1">{subtitle}</p>
+        <p className="section1">{datesone}</p>
+        <p className="section1">{schoolone}</p>
+        <p className="section1">{programtwo}</p>
+        <p className="section1">{datestwo}</p>
+        <p className="section1">{schooltwo}</p>
+        <p className="skillssection">{skillone}</p>
+        <p className="logos">{github}</p>
+        <p className="logos">{linkedin}</p>
+        <p className="skillssection">{skilltwo}</p>
+        <p className="skillssection">{skillscss}</p>
+        <p className="skillssection">{skillthree}</p>
+        <p className="skillssection">{skillfour}</p>
+        <p className="skillssection">{skillfive}</p>
+        <p className="skillssection">{skillsix}</p>
+        <p className="skillssection">{skillseven}</p>
+        <p className="skillssection">{skilleight}</p>
+        <p className="skillssection">{skillnine}</p>
+        <p className="skillssection">{skillten}</p>
+        <p className="skillssection">{skilleleven}</p>
+        <p className="skillssection">{skilltwelve}</p>
+        <p className="skillssection">{skillthirteen}</p>
+        <p className="section1">{link}</p>
+        <p className="section1">{repo}</p>
+        <p className="section1">{backendrepo}</p>
+        <p className="section1">{screenshot}</p>
         <p>{backtotop}</p>
        
       </div>
