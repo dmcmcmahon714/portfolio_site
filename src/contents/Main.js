@@ -79,7 +79,7 @@ class Main extends Component {
         <Section
             title=<h1 className="title3">Contact</h1>
             subtitle=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
-            skillone=<p className="phone">Phone: +1(312)810-9540</p>
+            phone=<p className="phone">Phone: +1(312)810-9540</p>
             linkedin=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
             <a className="linklogos" href="https://github.com/dmcmcmahon714"><img alt="ghlogo" src={githublogo}/></a></div>
             dark={true}
