@@ -13,73 +13,9 @@ export default class Aside extends Component {
   render() {
     return (
       <aside>
-      <nav className="nav" id="navbar">
-        <div className="nav-content">
-          <ul className="nav-items"> 
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="absoluteJAMS"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              absoluteJAMS
-              </Link>
-              </li>
-            <li className="nav-item">
-              <Link
-                activeClass="active"
-                to="gigglelibs"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              GiggleLibs
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="yournewmusic"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Your New Music
-              </Link>
-              </li>
-            <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="dailypaintracker"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Daily Pain Tracker
-              </Link>
-              </li>
-              <li className="nav-item">
-            <Link
-                activeClass="active"
-                to="chicagotowfind"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Chicago Tow Find
-              </Link>
-              </li>
-            </ul>
-            </div>
-            </nav>
-            </aside>
+<p>I am a lifelong musician with a passion for technology’s role in the creative field. Troubleshooting and getting to the bottom of roadblocks to peoples’ artistry gives me a deep sense of satisfaction. While I have significant experience in a professional office setting performing customer-service oriented legal work, I have also been obsessed with creating digital music since I could first afford a computer. Additionally, my love of people and strict yoga & meditation practices have allowed me to help people realize their creative goals while maintaining a peaceful, even temper. I am currently developing my hard technology skills, so I can come to an even deeper understanding of these systems.
+</p>
+      </aside>
     );
   }
 }

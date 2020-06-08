@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto|Stylish&display=swap');
 
 :root {
-  --black: rgba(0, 0, 0, 1);
-  --oasis-green: rgba(131, 151, 136, 1);
+  --black: #AA1854;
+  --oasis-green: #F0EDE4;
   --sandy: rgba(238, 224, 203, 1);
   --shady-sand: rgba(186, 168, 152, 1);
   --oasis-blue: rgba(191, 215, 234, 1);
@@ -16,6 +16,7 @@ h1 {
 
   grid-template-areas:
     "header header header"
+    "aside aside aside"
     "nav nav nav"
     "content content content";
   grid-template-columns: 30% 1fr 20%;
@@ -31,9 +32,11 @@ h1 {
 
 header {
   grid-area: header;
-  height: 102%;
-  padding: 0;
-  margin: 0;
+  height: 100%;
+  width: 75%;
+  padding: 0 auto;
+  margin: 0 auto;
+  padding-bottom: 0;
   
 }
 
@@ -46,8 +49,13 @@ main {
 
 aside {
   grid-area: aside;
-  margin-right: 0.5rem;
-  background-color: var(--oasis-green);
+  align-content: center;
+  width: 100%;
+  margin-top: 0;
+  padding: 0 auto;
+  background-color: #F0EDE4;
+  font-family: 'Poiret One', cursive;
+  line-height: 2em;
 }
 
 footer {
@@ -87,6 +95,12 @@ body {
   margin: 0;
 }
 
+p {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+}
+
 @media (max-width: 768px) {
   .container {
     grid-template-areas:
@@ -107,20 +121,18 @@ body {
 }
 nav
 {
-  padding: 30px 30px 30px ;
+  padding:30px;
   flex:var(--sidebar-flex);
-  background: rgb(238,103,143);
   background-color: #F0EDE4;
   grid-area: nav;
-  border: solid 20px #B60452;
+  border: none;
 }
 
 nav ul{
     display: flex;
     align-items: stretch; /* Default */
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
-    
     padding: 0;
 }
 
@@ -129,15 +141,19 @@ nav ul li
     display: block;
     flex: 0 1 auto; /* Default */
     list-style-type: none;
-    padding-right: 50px;
-    padding-left: 20px;
-    padding-bottom: 20px;
   
 }
 
-p.projects {
+.projects {
   padding-bottom: 30px;
   margin-top: 0;
+}
+
+.projectsheading {
+  display: flex;
+  color: #AA1854;
+  align-items: center;
+  justify-content: center;
 }
 
 ul.projects {
@@ -148,33 +164,12 @@ ul.projects {
   margin-top: 0px;
 }
 
-.contact {
-  margin-right: 8em;
-}
 
-.nav-item1 {
-  margin-left: 165px;
-  margin-bottom: 1em;
 
-}
-
-.skills {
-  margin-left: 2em;
-  margin-right: 6em;
-}
-
-.education {
-  margin-left: 2em;
-}
-
-.about {
-  margin-left: 16em;
-}
 
 a {
     
-    background: #B60452;
-    color: #ffffff;
+    color: #AA1854;
     cursor: pointer;
     font-size: .7em;
     padding: .5rem;
@@ -187,10 +182,17 @@ a {
 }
 
 a:hover {
+  color: #F1C4EC;
+  text-decoration: underline;
 
   
 }
 
+h2 {
+  text-align: center;
+  color: #AA1854;
+  font-size: .7em;
+}
 
 
 .heading {
@@ -205,8 +207,7 @@ a:hover {
 
 #navbar.nav {
 	padding-bottom: 0;
-  padding-right:  75px;
-  padding-left: 75px;
+  margin: 0;
 }
 
 .profilepic {

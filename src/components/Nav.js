@@ -61,8 +61,8 @@ class Nav extends Component {
               </Link>
               </li>
               </ul>
+          <div className="projectsheading"><h2>Projects:</h2></div>
             <ul className="projects"> 
-            <li><p className="projects">Projects:</p></li>
             <li className="absolutejams">
             <Link
                 activeClass="active"
