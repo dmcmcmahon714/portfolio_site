@@ -9,22 +9,10 @@ class Nav extends Component {
   };
     render() {
         return (
-        <nav className="nav" id="navbar">
-        <div className="nav-content">
-          <ul className="nav-items">
-          <li className="about">
-            <Link
-                activeClass="active"
-                to="about"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              About
-              </Link>
-              </li>
-            <li className="education">
+        <nav>
+        <div>
+          <ul>
+            <li>
             <Link
                 activeClass="active"
                 to="education"
@@ -36,7 +24,7 @@ class Nav extends Component {
               Education
               </Link>
               </li>
-            <li className="skills">
+            <li>
             <Link
                 activeClass="active"
                 to="skills"
@@ -48,7 +36,7 @@ class Nav extends Component {
               Skills
               </Link>
               </li>
-            <li className="contact">
+            <li>
             <Link
                 activeClass="active"
                 to="contact"
@@ -61,9 +49,9 @@ class Nav extends Component {
               </Link>
               </li>
               </ul>
-          <div className="projectsheading"><h2>Projects:</h2></div>
-            <ul className="projects"> 
-            <li className="absolutejams">
+          <div className="projectsheading"><h2>Projects</h2></div>
+            <ul> 
+            <li>
             <Link
                 activeClass="active"
                 to="absoluteJAMS"
@@ -75,7 +63,7 @@ class Nav extends Component {
               absoluteJAMS
               </Link>
               </li>
-            <li className="nav-item">
+            <li>
               <Link
                 activeClass="active"
                 to="gigglelibs"
@@ -87,7 +75,7 @@ class Nav extends Component {
               GiggleLibs
               </Link>
               </li>
-            <li className="nav-item">
+            <li>
             <Link
                 activeClass="active"
                 to="yournewmusic"
@@ -99,7 +87,7 @@ class Nav extends Component {
               Your New Music
               </Link>
               </li>
-            <li className="nav-item">
+            <li>
             <Link
                 activeClass="active"
                 to="dailypaintracker"
@@ -111,7 +99,7 @@ class Nav extends Component {
               Daily Pain Tracker
               </Link>
               </li>
-              <li className="nav-item">
+              <li>
             <Link
                 activeClass="active"
                 to="chicagotowfind"

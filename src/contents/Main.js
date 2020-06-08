@@ -24,15 +24,8 @@ class Main extends Component {
             
         <main>
         <Section
-            title="Dan McMahon - Full Stack Web Developer"
-            subtitle="I am a lifelong musician with a passion for technology’s role in the creative field. Troubleshooting and getting to the bottom of roadblocks to peoples’ artistry gives me a deep sense of satisfaction. While I have significant experience in a professional office setting performing customer-service oriented legal work, I have also been obsessed with creating digital music since I could first afford a computer. Additionally, my love of people and strict yoga & meditation practices have allowed me to help people realize their creative goals while maintaining a peaceful, even temper. I am currently developing my hard technology skills, so I can come to an even deeper understanding of these systems."
-            dark={true}
-            id="about"
-            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
-          />
-        <Section
             title="Education"
-            subtitle="Software Engineering Immersive."
+            subtitle="Software Engineering Immersive"
             dark={true}
             id="education"
             schoolone="General Assembly"

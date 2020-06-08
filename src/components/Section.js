@@ -4,6 +4,7 @@ import backtotop from '../img/backtotop.png';
 import Nav from '../components/Nav'
 
 
+
 export default function Section({ title, subtitle, dark, id, link, screenshot, repo, backendrepo, schoolone, datesone, programtwo, schooltwo, datestwo, skillone, skilltwo, skillthree, skillfour, skillfive, skillsix, skillseven, skilleight, skillnine, skillten, skilleleven, skilltwelve, skillthirteen, backtotop  }) {
 
 
