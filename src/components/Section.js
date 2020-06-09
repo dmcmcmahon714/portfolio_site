@@ -12,13 +12,6 @@ export default function Section({ title, subtitle, dark, id, link, screenshot, r
     <div className={"section" + (dark ? " section-dark" : "")}>
       <div className="section-content" id={id}>
         <h1>{title}</h1>
-        <p className="education">{subtitle}</p>
-        <p className="section1">{phone}</p>
-        <p className="education">{datesone}</p>
-        <p className="education">{schoolone}</p>
-        <p className="education">{programtwo}</p>
-        <p className="education">{datestwo}</p>
-        <p className="education">{schooltwo}</p>
         <p className="skillssection">{skillone}</p>
         <p className="skillssection">{skilltwo}</p>
         <p className="skillssection">{skillscss}</p>
@@ -33,6 +26,13 @@ export default function Section({ title, subtitle, dark, id, link, screenshot, r
         <p className="skillssection">{skilleleven}</p>
         <p className="skillssection">{skilltwelve}</p>
         <p className="skillssection">{skillthirteen}</p>
+        <p className="education">{subtitle}</p>
+        <p className="section1">{phone}</p>
+        <p className="education">{datesone}</p>
+        <p className="education">{schoolone}</p>
+        <p className="education">{programtwo}</p>
+        <p className="education">{datestwo}</p>
+        <p className="education">{schooltwo}</p>
         <p className="linklogos">{github}</p>
         <p className="linklogos">{linkedin}</p>
         <p className="section1">{screenshot}</p>
