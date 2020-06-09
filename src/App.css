@@ -304,11 +304,10 @@ h2 {
   margin-right: 25%;
   margin-left: 25%;
   margin-top: 3em;
-}
-
-#skills.section-content {
   margin-bottom: 1em;
 }
+
+
 
 .logos {
   width: 100%;
@@ -380,10 +379,14 @@ p.skillssection {
   align-items: center;
 }
 
-#education.section-content {
-  margin-top: 0;
-
+#skills.section-content {
+  margin-top: 2em;
+  margin: 0 auto;
+  width: 40%;
+  align-items: center;
 }
+
+
 
 
 
@@ -454,6 +457,10 @@ div.absolutescreenshots {
   display: inline-block;
   align-content: center;
   margin: 0 auto;
+}
+
+div.section.section-dark {
+  margin-top: 10em;
 }
 
 img.absoluteshots {
