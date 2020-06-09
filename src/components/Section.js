@@ -35,10 +35,10 @@ export default function Section({ title, subtitle, dark, id, link, screenshot, r
         <p className="skillssection">{skillthirteen}</p>
         <p className="linklogos">{github}</p>
         <p className="linklogos">{linkedin}</p>
-        <p className="section1">{link}</p>
+        <p className="section1">{screenshot}</p>
+        <p className="link">{link}</p>
         <p className="section1">{repo}</p>
         <p className="section1">{backendrepo}</p>
-        <p className="section1">{screenshot}</p>
         <p>{backtotop}</p>
        
       </div>

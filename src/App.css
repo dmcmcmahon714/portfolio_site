@@ -102,8 +102,8 @@ p {
 }
 
 p.section1 {
-  margin-top: 1em;
-  margin-bottom: 1.5em;
+  margin-top: 0;
+  margin-bottom: 0em;
   margin-right: 0;
   margin-left: 0;
   font-weight: bold;
@@ -315,7 +315,7 @@ p.linklogos {
 }
 
 div.links {
-  margin-bottom: 6em;
+  margin-bottom: 5.5em;
 }
 
 p.skillssection {
@@ -323,8 +323,67 @@ p.skillssection {
   padding-bottom: .2em;
 }
 
-#absoluteJams.section-content {
+#absoluteJAMS.section-content {
   margin-top: 2em;
+  margin: 0 auto;
+  width: 75%;
+  align-items: center;
+}
+
+#gigglelibs.section-content {
+  margin-top: 2em;
+  margin: 0 auto;
+  width: 75%;
+  align-items: center;
+}
+
+#yournewmusic.section-content {
+  margin-top: 2em;
+  margin: 0 auto;
+  width: 75%;
+  align-items: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  text-align: justify;
+ 
+  margin: 0 auto;
+}
+
+.descriptionitems {
+  width: 50%;
+  margin-left: 7em;
+}
+
+.sitedescription:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p.features {
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: .5em;
+}
+
+div.absolutescreenshots {
+  display: inline-block;
+  align-items: center;
+}
+
+img.absoluteshots {
+  padding-right: 5em;
+}
+
+div.demolinks {
+  margin: 0 auto;
+}
+
+p.link {
+  margin-top: 0;
 }
 
 .profilepic {
