@@ -344,6 +344,21 @@ p.skillssection {
   align-items: center;
 }
 
+#dailypaintracker.section-content {
+  margin-top: 2em;
+  margin: 0 auto;
+  width: 75%;
+  align-items: center;
+}
+
+#chicagotowfind.section-content {
+  margin-top: 2em;
+  margin: 0 auto;
+  width: 75%;
+  align-items: center;
+}
+
+
 .column {
   float: left;
   width: 33.33%;
