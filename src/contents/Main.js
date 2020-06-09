@@ -43,7 +43,7 @@ class Main extends Component {
             
         <main>
         <Section
-            title=<h1 className="title1">Education</h1>
+            title=<h1 className="title3">Education</h1>
             subtitle="Software Engineering Immersive"
             datesone="December 2019 - May 2020"
             dark={true}
