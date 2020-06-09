@@ -84,7 +84,7 @@ class Nav extends Component {
                 offset={-70}
                 duration={500}
               >
-              Your New Music
+              Your Release Tracker
               </Link>
               </li>
             <li>

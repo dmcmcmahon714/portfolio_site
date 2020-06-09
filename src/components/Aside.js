@@ -13,7 +13,7 @@ export default class Aside extends Component {
   render() {
     return (
       <aside>
-<p>I am a lifelong musician with a passion for technology’s role in the creative field. Troubleshooting and getting to the bottom of roadblocks to peoples’ artistry gives me a deep sense of satisfaction. While I have significant experience in a professional office setting performing customer-service oriented legal work, I have also been obsessed with creating digital music since I could first afford a computer. Additionally, my love of people and strict yoga & meditation practices have allowed me to help people realize their creative goals while maintaining a peaceful, even temper. I am currently developing my hard technology skills, so I can come to an even deeper understanding of these systems.
+<p>I’m a full stack web developer with experience in law, music, health & wellness.  I see my role in the field as to help forge new creative frontiers in the tech industry.  I am primarily driven to take on these roles by the hope for a more efficient, beautiful world.  My varied experience of different industries gives me a unique approach to any challenge I am faced with.  I also love people and figuring out the most efficient way to realize their visions. Overcoming the hurdles necessary to make dreams come to life is my greatest sense of satisfaction. My goal as a developer is my ability to blend the artistry of whoever I am working with and clean code to create the idyllic digital experience.
 </p>
       </aside>
     );

@@ -28,6 +28,7 @@ import absolutess2 from '../img/absolutess2.png'
 import gigglelibsss from '../img/gigglelibsss.png'
 import YournewmusicSS from '../img/yournewmusic.png'
 import PaintrackerSS from '../img/paintrackerss.png'
+import PaintrackerSS2 from '../img/paintrackerss2.png'
 import ChicagotowfindSS from '../img/chicagotowfind.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 import backtotop from '../img/backtotop.png'; 
@@ -73,29 +74,25 @@ class Main extends Component {
             skilleleven=<img src={mongodblogo}/>
             skilltwelve="Writing"
             skillthirteen="Communication"
-            backtotop=<img src={backtotop} className="skills" alt="Logo" onClick={this.scrollToTop}/>
-            subtitle=""
-            schoolone=""
-            programtwo=""
-            schooltwo=""
-            datestwo=""
+            subtitle=<img src={backtotop} className="skills" alt="Logo" onClick={this.scrollToTop}/>
+           
             />
 
         <Section
-            title=<h1 className="title3">Contact</h1>
-            subtitle=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
-            phone=<p className="phone">Phone: +1(312)810-9540</p>
-            linkedin=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
+            title=<h1 className="contact">Contact</h1>
+            skillthree=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
+            skillfive=<p className="phone">Phone: +1(312)810-9540</p>
+            skillsix=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
             <a className="linklogos" href="https://github.com/dmcmcmahon714"><img alt="ghlogo" src={githublogo}/></a></div>
             dark={true}
             id="contact"
-            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+            skillseven=<img src={backtotop} className="contact" alt="Logo" onClick={this.scrollToTop}/>
             />
 
         <Section
             title=<h1 className="title3">absoluteJAMS</h1>
-            subtitle=<div className="sitedescription">
-            <div className="column">This is a full stack web forum built with Ruby on Rails using the devise gem and postgresQL. Commenting and likes with full CRUD functionality make an ideal environment for music discussion.</div>
+            skillone=<div className="sitedescription">
+            <div className="column" >This is a full stack web forum built with Ruby on Rails using the devise gem and postgresQL. Commenting and likes with full CRUD functionality make an ideal environment for music discussion.</div>
             <div className="column">
             <p className="features">Features:</p>
             <ul>
@@ -108,7 +105,7 @@ class Main extends Component {
             </div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
-            <ul>
+            <ul className="jamstech">
             <li className="descriptionitems">Ruby on Rails</li>
             <li className="descriptionitems">Devise</li>
             <li className="descriptionitems">SASS-rails</li>
@@ -121,18 +118,18 @@ class Main extends Component {
             </div>
             dark={true}
             id="absoluteJAMS"
-            phone=<div className="absolutescreenshots"><img className="absoluteshots" src={absolutess2} alt="absoluteJAMS1"/></div>
-            link=<div className="demolinks"><a href="https://protected-oasis-67383.herokuapp.com/">
+            skilltwo=<div className="absolutescreenshots"><img className="absoluteshots" src={absolutess2} alt="absoluteJAMS1"/></div>
+            skillthree=<div className="demolinks"><a href="https://protected-oasis-67383.herokuapp.com/">
             <img alt="herokudemoicon" src={herokudemoicon}/></a>
             <a href="https://github.com/dmcmcmahon714/finalprojectrebuild">
             <img alt="githubsmall" src={githubsmall}/></a></div>
-            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+            skillfour=<img src={backtotop} className="jams" alt="Logo" onClick={this.scrollToTop}/>
             />
 
 
         <Section
           title=<h1 className="title3">Gigglelibs</h1>
-          subtitle=<div className="sitedescription">
+          skillone=<div className="sitedescription">
           <div className="column">Gigglelibs is a fun mad lib generator for bored children and adults alike. This site employed an Express with Mongoose backend powerered by Node.js, with bcrypt, CORS, and MERN stack to integrate the front end. The front end was built in React with Node.js, HTML, React Bootstrap, CSS, and Javascript all integrated. Express-session was utilized for authentication allowing users to sign up, log in, and log out.</div>
           <div className="column">
           <p className="features">Features:</p>
@@ -158,21 +155,21 @@ class Main extends Component {
             </div>
           dark={true}
           id="gigglelibs"
-          screenshot=<img src={gigglelibsss} alt="Gigglelibs"/>
-          link=<div className="demolinks"><a href="https://gigglelibs.herokuapp.com/">
+          skilltwo=<img src={gigglelibsss} alt="Gigglelibs"/>
+          skillthree=<div className="demolinks"><a href="https://gigglelibs.herokuapp.com/">
           <img alt="herokudemoicon" src={herokudemoicon}/></a><a href="https://github.com/ty18881/Phoenix-Rising-Giggle-Libs-FE">Front End:
-          <img alt="githubsmall" src={githubsmall}/>
+          <img className="githubrepos" alt="githubsmall" src={githubsmall}/>
           </a>
           <a href="https://github.com/ty18881/Phoenix-Rising-Project-3-BE">Backend:
-          <img alt="githubsmall" src={githubsmall}/>
+          <img className="githubrepos" alt="githubsmall" src={githubsmall}/>
           </a></div>
-          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+          skillfour=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
 
 
         <Section
           title=<h1 className="title3">Your Release Tracker</h1>
-          subtitle=<div className="sitedescription">
+          skillone=<div className="sitedescription">
           <div className="column">This app allows a user to keep track of when their favorite albums will be coming out. The API was built with Ruby on Rails and PostgresQL. Fake data provided by faker.  The back end connects to the client side with rack-cors. The front end was built in React</div>
           <div className="column">
            <p className="features">Features:</p>
@@ -199,21 +196,21 @@ class Main extends Component {
             </div>
           dark={true}
           id="yournewmusic"
-          screenshot=<img src={YournewmusicSS} alt="YournewmusicSS"/>
-          link=<div className="demolinks"><a href="https://frozen-temple-96234.herokuapp.com/">
+          skilltwo=<img className="absolutescreenshot" src={YournewmusicSS} alt="YournewmusicSS"/>
+          skillsix=<div className="demolinks"><a href="https://frozen-temple-96234.herokuapp.com/">
           <img alt="herokudemoicon" src={herokudemoicon}/></a><a href="https://github.com/dmcmcmahon714/project_4_front_end">Front End:
-          <img alt="githubsmall" src={githubsmall}/>
+          <img className="githubrepos" alt="githubsmall" src={githubsmall}/>
           </a>
           <a href="https://github.com/dmcmcmahon714/new_music_api">Backend:
-          <img alt="githubsmall" src={githubsmall}/>
+          <img className="githubrepos" alt="githubsmall" src={githubsmall}/>
           </a></div>
-          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+          skillseven=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
 
 
         <Section
           title=<h1 className="title3">Daily Pain Tracker</h1>
-          subtitle=<div className="sitedescription">
+          skillone=<div className="sitedescription">
           <div className="column">This is an app designed to allow users to easily record how a specific pain or ailment is progressing over time.  Ideally this would help doctors looking for more accurate self-reporting.  This is an MVC format app with full CRUD functinality.  The database was created with MongoDB.  Authentication was created with bcrypt and express-session to allow users to sign up, sign in, and log out, with sole access to their private data.</div>
           <div className ="column">
           <p className="features">Features:</p>
@@ -237,17 +234,17 @@ class Main extends Component {
             </div>
           dark={true}
           id="dailypaintracker"
-          screenshot=<img src={PaintrackerSS}/>
-          link=<div className="demolinks"><a href="https://fierce-scrubland-02207.herokuapp.com//">
+          skilltwo=<div className="paintrackerssdiv"><img className="paintrackerss" src={PaintrackerSS}/><img className="paintrackerss2" src={PaintrackerSS2}/></div>
+          skillthree=<div className="demolinks"><a href="https://fierce-scrubland-02207.herokuapp.com//">
             <img alt="herokudemoicon" src={herokudemoicon}/></a>
             <a href="https://github.com/dmcmcmahon714/seir-projects2">
             <img alt="githubsmall" src={githubsmall}/></a></div>
-          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+            skillfour=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
 
         <Section
           title=<h1 className="title3">Chicago Tow Find</h1>
-          subtitle=<div className="sitedescription">
+          skillone=<div className="sitedescription">
           <div className="column">Chicago tow find is an html website that allows users to see if their car has been towed in Chicago on a given date.  The app is built with simple html, css, and javascript utilizing jquery.  The information is pulled from the official City of Chicago public API via AJAX request.</div>
           <div className="column">
           <p className="features">Features:</p>
@@ -270,12 +267,12 @@ class Main extends Component {
             </div>
           dark={true}
           id="chicagotowfind"
-          screenshot=<img src={ChicagotowfindSS} alt="chitowfind"/>
-          link=<div className="demolinks"><a href="https://dmcmcmahon714.github.io/Project-1//">
+          skilltwo=<img src={ChicagotowfindSS} alt="chitowfind"/>
+          skillfour=<div className="demolinks"><a href="https://dmcmcmahon714.github.io/Project-1//">
             <img alt="githubpagesicon" src={githubpagesicon}/></a>
             <a href="https://github.com/dmcmcmahon714/Project-1">
             <img alt="githubsmall" src={githubsmall}/></a></div>
-          backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+          skillsix=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
       </main>
           
