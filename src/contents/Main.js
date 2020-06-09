@@ -123,7 +123,7 @@ class Main extends Component {
             <img alt="herokudemoicon" src={herokudemoicon}/></a>
             <a href="https://github.com/dmcmcmahon714/finalprojectrebuild">
             <img alt="githubsmall" src={githubsmall}/></a></div>
-            skillfour=<img src={backtotop} className="jams" alt="Logo" onClick={this.scrollToTop}/>
+            skillthree=<img src={backtotop} className="jams" alt="Logo" onClick={this.scrollToTop}/>
             />
 
 
@@ -141,7 +141,7 @@ class Main extends Component {
             </div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
-            <ul>
+            <ul className="libstech">
             <li className="descriptionitems">Node.js</li>
             <li className="descriptionitems">CORS</li>
             <li className="descriptionitems">Express</li>
@@ -256,7 +256,7 @@ class Main extends Component {
             </div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
-            <ul>
+            <ul className="jamstech">
             <li className="descriptionitems">HTML</li>
             <li className="descriptionitems">Javascript</li>
             <li className="descriptionitems">Jquery</li>
