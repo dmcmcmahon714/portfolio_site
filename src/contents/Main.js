@@ -234,7 +234,7 @@ class Main extends Component {
             </div>
           dark={true}
           id="dailypaintracker"
-          skilltwo=<div className="paintrackerssdiv"><img className="paintrackerss" src={PaintrackerSS}/><img className="paintrackerss2" src={PaintrackerSS2}/></div>
+          skilltwo=<div className="paintrackerss"><img className="paintrackerss" src={PaintrackerSS}/><img className="paintrackerss2" src={PaintrackerSS2}/></div>
           skillthree=<div className="demolinks"><a href="https://fierce-scrubland-02207.herokuapp.com//">
             <img alt="herokudemoicon" src={herokudemoicon}/></a>
             <a href="https://github.com/dmcmcmahon714/seir-projects2">
@@ -272,7 +272,7 @@ class Main extends Component {
             <img alt="githubpagesicon" src={githubpagesicon}/></a>
             <a href="https://github.com/dmcmcmahon714/Project-1">
             <img alt="githubsmall" src={githubsmall}/></a></div>
-          skillsix=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+          skilleight=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
       </main>
           

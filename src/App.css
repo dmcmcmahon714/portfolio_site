@@ -354,7 +354,7 @@ p.skillssection {
 #dailypaintracker.section-content {
   margin-top: 2em;
   margin: 0 auto;
-  width: 65%;
+  width: 75%;
   align-items: center;
 }
 
@@ -382,7 +382,7 @@ p.skillssection {
 #skills.section-content {
   margin-top: 2em;
   margin: 0 auto;
-  width: 45%;
+  width: 38%;
   align-items: center;
 }
 
@@ -391,18 +391,21 @@ p.skillssection {
 
 
 img.paintrackerss {
+  margin-top: 1em;
   padding-right: 2em;
+
+ 
 }
 
-img.paintrackerss2 {
-  padding-bottom: 2.5em;
+div.paintrackerss {
+  margin: 0 auto;
+  margin-left: 0%;
 }
-
 
 
 p.education {
-  margin-top: 0;
-  padding-bottom: 0;
+  
+  margin: 0 auto;
   margin-bottom: 3em;
 }
 
@@ -473,6 +476,8 @@ div.demolinks {
 
 img.skills {
   margin-top: 4em;
+  margin-left: 12em;
+  margin-right: 5em;
 }
 
 img.contact {
@@ -495,5 +500,12 @@ p.link {
 div.sitedescription {
   color: black;
   font-size: 12px;
+}
+
+div.paintrackerdescription {
+  color: black;
+  font-size: 12px;
+  width: 75%;
+  margin: 0 auto;
 }
 
