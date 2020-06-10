@@ -2,7 +2,7 @@
 
 :root {
   --black: #AA1854;
-  --oasis-green: #F0EDE4;
+  --oasis-green: #fffef6;
   --sandy: rgba(238, 224, 203, 1);
   --shady-sand: rgba(186, 168, 152, 1);
   --oasis-blue: rgba(191, 215, 234, 1);
@@ -15,7 +15,7 @@ h1 {
 }
 .container {
   display: grid;
-  background-color: #F0EDE4;
+  background-color: #fffef6;
   grid-template-areas:
     "header header header"
     "aside aside aside"
@@ -44,7 +44,7 @@ header {
 
 main {
   grid-area: content;
-  background-color: #F0EDE4;
+  background-color: #fffef6;
   margin-top: 0;
   align-items: center;
   text-align: center;
@@ -54,7 +54,7 @@ aside {
   grid-area: aside;
   align-content: center;
   width: 100%;
-  background-color: #F0EDE4;
+  background-color: #fffef6;
   font-family: 'Poiret One', cursive;
   line-height: 2em;
 }
@@ -209,7 +209,7 @@ nav
   
   padding: 0 auto;
   margin-top: 0;
-  background-color: #F0EDE4;
+  background-color: ##fffef6;
   grid-area: nav;
   border: none;
 }
@@ -382,7 +382,7 @@ p.skillssection {
 #skills.section-content {
   margin-top: 2em;
   margin: 0 auto;
-  width: 40%;
+  width: 45%;
   align-items: center;
 }
 
