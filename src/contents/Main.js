@@ -123,7 +123,7 @@ class Main extends Component {
             <img alt="herokudemoicon" src={herokudemoicon}/></a>
             <a href="https://github.com/dmcmcmahon714/finalprojectrebuild">
             <img alt="githubsmall" src={githubsmall}/></a></div>
-            skillthree=<img src={backtotop} className="jams" alt="Logo" onClick={this.scrollToTop}/>
+            skillfour=<img src={backtotop} className="jams" alt="Logo" onClick={this.scrollToTop}/>
             />
 
 
