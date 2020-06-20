@@ -43,51 +43,6 @@ class Main extends Component {
         return (
             
         <main>
-        <Section
-            title=<h1 className="title3">Education</h1>
-            subtitle="Software Engineering Immersive"
-            datesone="December 2019 - May 2020"
-            dark={true}
-            id="education"
-            schoolone=<img src={GALOGO}/>
-            programtwo="B.A. in Communiciations - Journalism"
-            schooltwo=<img src={depaullogo}/>
-            datestwo="September 2009 - January 2011"
-            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
-            />
-
-        <Section
-            title=<h1 className="title2">Skills</h1>
-            dark={true}
-            id="skills"
-            skillone=<img src={htmllogo}/>
-            skilltwo=<img src={csslogo}/>
-            skillscss=<img src={scsslogo}/>
-            skillthree=<img src={javascriptlogo}/>
-            skillfour=<img src={nodejslogo}/>
-            skillfive=<img src={reactlogo}/>
-            skillsix=<img src={rubylogo}/>
-            skillseven=<img src={railslogo}/>
-            skilleight=<img src={jquerylogo}/>
-            skillnine=<img src={postgresqllogo}/>
-            skillten=<img src={mongooselogo}/>
-            skilleleven=<img src={mongodblogo}/>
-            skilltwelve="Writing"
-            skillthirteen="Communication"
-            subtitle=<img src={backtotop} className="skills" alt="Logo" onClick={this.scrollToTop}/>
-           
-            />
-
-        <Section
-            title=<h1 className="contact">Contact</h1>
-            skillthree=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
-            skillfive=<p className="phone">Phone: +1(312)810-9540</p>
-            skillsix=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
-            <a className="linklogos" href="https://github.com/dmcmcmahon714"><img alt="ghlogo" src={githublogo}/></a></div>
-            dark={true}
-            id="contact"
-            skillseven=<img src={backtotop} className="contact" alt="Logo" onClick={this.scrollToTop}/>
-            />
 
         <Section
             title=<h1 className="title3">absoluteJAMS</h1>
@@ -274,6 +229,53 @@ class Main extends Component {
             <img alt="githubsmall" src={githubsmall}/></a></div>
           skilleight=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
+        <Section
+            title=<h1 className="title3">Education</h1>
+            subtitle="Software Engineering Immersive"
+            datesone="December 2019 - May 2020"
+            dark={true}
+            id="education"
+            schoolone=<img src={GALOGO}/>
+            programtwo="B.A. in Communiciations - Journalism"
+            schooltwo=<img src={depaullogo}/>
+            datestwo="September 2009 - January 2011"
+            backtotop=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
+            />
+
+        <Section
+            title=<h1 className="title2">Skills</h1>
+            dark={true}
+            id="skills"
+            skillone=<img src={htmllogo}/>
+            skilltwo=<img src={csslogo}/>
+            skillscss=<img src={scsslogo}/>
+            skillthree=<img src={javascriptlogo}/>
+            skillfour=<img src={nodejslogo}/>
+            skillfive=<img src={reactlogo}/>
+            skillsix=<img src={rubylogo}/>
+            skillseven=<img src={railslogo}/>
+            skilleight=<img src={jquerylogo}/>
+            skillnine=<img src={postgresqllogo}/>
+            skillten=<img src={mongooselogo}/>
+            skilleleven=<img src={mongodblogo}/>
+            skilltwelve="Writing"
+            skillthirteen="Communication"
+            subtitle=<img src={backtotop} className="skills" alt="Logo" onClick={this.scrollToTop}/>
+           
+            />
+
+        <Section
+            title=<h1 className="contact">Contact</h1>
+            skillthree=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
+            skillfive=<p className="phone">Phone: +1(312)810-9540</p>
+            skillsix=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
+            <a className="linklogos" href="https://github.com/dmcmcmahon714"><img alt="ghlogo" src={githublogo}/></a></div>
+            dark={true}
+            id="contact"
+            skillseven=<img src={backtotop} className="contact" alt="Logo" onClick={this.scrollToTop}/>
+            />
+
+        
       </main>
           
             )
