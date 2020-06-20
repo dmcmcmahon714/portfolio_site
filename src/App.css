@@ -509,3 +509,18 @@ div.paintrackerdescription {
   margin: 0 auto;
 }
 
+ul.projectlinks {
+  font-size: 20px;
+}
+
+div.projectsheading {
+  font-size: 25px;
+}
+
+ul.aboutlinks {
+  font-size: 20px;
+}
+
+p.aboutblurb {
+  margin-top: 1.5em;
+}

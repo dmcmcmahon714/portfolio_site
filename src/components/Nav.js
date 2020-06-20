@@ -11,46 +11,8 @@ class Nav extends Component {
         return (
         <nav>
         <div>
-          <ul>
-            <li>
-            <Link
-                activeClass="active"
-                to="education"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Education
-              </Link>
-              </li>
-            <li>
-            <Link
-                activeClass="active"
-                to="skills"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Skills
-              </Link>
-              </li>
-            <li>
-            <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-              >
-              Contact
-              </Link>
-              </li>
-              </ul>
-          <div className="projectsheading"><h2>Projects</h2></div>
-            <ul> 
+           <div className="projectsheading"><h2>Projects:</h2></div>
+            <ul className="projectlinks"> 
             <li>
             <Link
                 activeClass="active"
@@ -112,6 +74,58 @@ class Nav extends Component {
               </Link>
               </li>
             </ul>
+          <div className="projectsheading"><h2>About:</h2></div>
+          <ul className="aboutlinks">
+             <li>
+            <Link
+                activeClass="active"
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Skills
+              </Link>
+              </li>
+            <li>
+            <Link
+                activeClass="active"
+                to="education"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Education
+              </Link>
+              </li>
+            <li>
+            <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Contact
+              </Link>
+              </li>
+                  <li>
+            <Link
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Resume
+              </Link>
+              </li>
+              </ul>
+         
             </div>
             </nav>
             )
