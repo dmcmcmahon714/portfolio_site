@@ -67,11 +67,9 @@ class Main extends Component {
             </div>
             dark={true}
             id="absoluteJAMS"
-            skilltwo=<div className="absolutescreenshots"><img className="absoluteshots" src={absolutess2} alt="absoluteJAMS1"/></div>
-            skillthree=<div className="demolinks"><a href="https://protected-oasis-67383.herokuapp.com/">
-            <img alt="herokudemoicon" src={herokudemoicon}/></a>
-            <a href="https://github.com/dmcmcmahon714/finalprojectrebuild">
-            <img alt="githubsmall" src={githubsmall}/></a></div>
+            skilltwo=<a href="https://protected-oasis-67383.herokuapp.com/"><img className="absoluteshots" src={absolutess2} alt="absoluteJAMS1"/></a>
+            skillthree=<a href="https://github.com/dmcmcmahon714/finalprojectrebuild">
+            <img alt="githubsmall" src={githubsmall}/></a>
             skillfour=<img src={backtotop} className="jams" alt="Logo" onClick={this.scrollToTop}/>
             />
 
@@ -98,9 +96,9 @@ class Main extends Component {
             </div>
           dark={true}
           id="gigglelibs"
-          skilltwo=<img src={gigglelibsss} alt="Gigglelibs"/>
+          skilltwo=<a href="https://gigglelibs.herokuapp.com/"><img src={gigglelibsss} alt="Gigglelibs"/></a>
           skillthree=<div className="demolinks"><a href="https://gigglelibs.herokuapp.com/">
-          <img alt="herokudemoicon" src={herokudemoicon}/></a><a href="https://github.com/ty18881/Phoenix-Rising-Giggle-Libs-FE">Front End:
+          <a href="https://gigglelibs.herokuapp.com/"></a></a><a href="https://github.com/ty18881/Phoenix-Rising-Giggle-Libs-FE">Front End:
           <img className="githubrepos" alt="githubsmall" src={githubsmall}/>
           </a>
           <a href="https://github.com/ty18881/Phoenix-Rising-Project-3-BE">Backend:
@@ -130,9 +128,8 @@ class Main extends Component {
             </div>
           dark={true}
           id="yournewmusic"
-          skilltwo=<img className="absolutescreenshot" src={YournewmusicSS} alt="YournewmusicSS"/>
-          skillsix=<div className="demolinks"><a href="https://frozen-temple-96234.herokuapp.com/">
-          <img alt="herokudemoicon" src={herokudemoicon}/></a><a href="https://github.com/dmcmcmahon714/project_4_front_end">Front End:
+          skilltwo=<a href="https://frozen-temple-96234.herokuapp.com/"><img src={YournewmusicSS} alt="ynmtracker"/></a>
+          skillsix=<div className="demolinks"><a href="https://github.com/dmcmcmahon714/project_4_front_end">Front End:
           <img className="githubrepos" alt="githubsmall" src={githubsmall}/>
           </a>
           <a href="https://github.com/dmcmcmahon714/new_music_api">Backend:
@@ -159,9 +156,8 @@ class Main extends Component {
             </div>
           dark={true}
           id="dailypaintracker"
-          skilltwo=<img className="paintrackerss" src={PaintrackerSS}/>
-          skillthree=<div className="demolinks"><a href="https://fierce-scrubland-02207.herokuapp.com//">
-            <img alt="herokudemoicon" src={herokudemoicon}/></a>
+          skilltwo=<a href="https://fierce-scrubland-02207.herokuapp.com/"><img className="paintrackerss" src={PaintrackerSS}/></a>
+          skillthree=<div className="demolinks">
             <a href="https://github.com/dmcmcmahon714/seir-projects2">
             <img alt="githubsmall" src={githubsmall}/></a></div>
             skillfour=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
@@ -184,10 +180,9 @@ class Main extends Component {
             </div>
           dark={true}
           id="chicagotowfind"
-          skilltwo=<img className="towfind" src={ChicagotowfindSS} alt="chitowfind"/>
-          skillfour=<div className="demolinks"><a href="https://dmcmcmahon714.github.io/Project-1//">
-            <img alt="githubpagesicon" src={githubpagesicon}/></a>
-            <a href="https://github.com/dmcmcmahon714/Project-1">
+          skilltwo=<a href="https://github.com/dmcmcmahon714/Project-1/"><img src={ChicagotowfindSS} img className="towfind"/></a>
+          skillfour=<div className="demolinks">
+            <a href="https://github.com/dmcmcmahon714/Project-1/">
             <img alt="githubsmall" src={githubsmall}/></a></div>
           skilleight=<img src={backtotop} className="nav-logo" alt="Logo" onClick={this.scrollToTop}/>
         />
