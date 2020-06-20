@@ -48,16 +48,9 @@ class Main extends Component {
         <Section
             title=<h1 className="title3">absoluteJAMS</h1>
             skillone=<div className="sitedescription">
-            <div className="column" >This is a full stack web forum built with Ruby on Rails using the devise gem and postgresQL. Commenting and likes with full CRUD functionality make an ideal environment for music discussion.</div>
+            <div className="column" >This is a full stack web forum built with Ruby on Rails using the devise gem and postgresQL. Commenting and likes with full CRUD functionality make an ideal environment for music discussion.
+            Feature: User Authentication, Posts, Likes, Comments, Tag Sorting.</div>
             <div className="column">
-            <p className="features">Features:</p>
-            <ul>
-            <li className="descriptionitems">User Authentication</li>
-            <li className="descriptionitems">Posts</li>
-            <li className="descriptionitems">Likes</li>
-            <li className="descriptionitems">Comments</li>
-            <li className="descriptionitems">Tag Sorting</li>
-            </ul>
             </div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
@@ -86,14 +79,8 @@ class Main extends Component {
         <Section
           title=<h1 className="title3">Gigglelibs</h1>
           skillone=<div className="sitedescription">
-          <div className="column">Gigglelibs is a fun mad lib generator for bored children and adults alike. This site employed an Express with Mongoose backend powerered by Node.js, with bcrypt, CORS, and MERN stack to integrate the front end. The front end was built in React with Node.js, HTML, React Bootstrap, CSS, and Javascript all integrated. Express-session was utilized for authentication allowing users to sign up, log in, and log out.</div>
+          <div className="column">Gigglelibs is a fun mad lib generator for bored children and adults alike. This site employed an Express with Mongoose backend powerered by Node.js, with bcrypt, CORS, and MERN stack to integrate the front end. The front end was built in React with Node.js, HTML, React Bootstrap, CSS, and Javascript all integrated. Express-session was utilized for authentication allowing users to sign up, log in, and log out. Features include: User Authentication, Madlib Generator, Gigglelib database.</div>
           <div className="column">
-          <p className="features">Features:</p>
-            <ul>
-            <li className="descriptionitems">User Authentication</li>
-            <li className="descriptionitems">MadLib Generator</li>
-            <li className="descriptionitems">Gigglelib Database</li>
-            </ul>
             </div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
@@ -126,16 +113,7 @@ class Main extends Component {
         <Section
           title=<h1 className="title3">Your Release Tracker</h1>
           skillone=<div className="sitedescription">
-          <div className="column">This app allows a user to keep track of when their favorite albums will be coming out. The API was built with Ruby on Rails and PostgresQL. Fake data provided by faker.  The back end connects to the client side with rack-cors. The front end was built in React</div>
-          <div className="column">
-           <p className="features">Features:</p>
-            <ul>
-            <li className="descriptionitems">Add Releases</li>
-            <li className="descriptionitems">Edit Releases</li>
-            <li className="descriptionitems">Delete Releases</li>
-            <li className="descriptionitems">Embeded New Release Spotify Player</li>
-            </ul>
-            </div>
+          <div className="column">This app allows a user to keep track of when their favorite albums will be coming out. The API was built with Ruby on Rails and PostgresQL. Fake data provided by faker.  The back end connects to the client side with rack-cors. The front end was built in React. Features include: Add releases, Edit Releases, Delete Releases, Embedded new release spotify player. </div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
             <ul>
@@ -167,16 +145,7 @@ class Main extends Component {
         <Section
           title=<h1 className="title3">Daily Pain Tracker</h1>
           skillone=<div className="sitedescription">
-          <div className="column">This is an app designed to allow users to easily record how a specific pain or ailment is progressing over time.  Ideally this would help doctors looking for more accurate self-reporting.  This is an MVC format app with full CRUD functinality.  The database was created with MongoDB.  Authentication was created with bcrypt and express-session to allow users to sign up, sign in, and log out, with sole access to their private data.</div>
-          <div className ="column">
-          <p className="features">Features:</p>
-           <ul>
-            <li className="descriptionitems">User Authentication</li>
-            <li className="descriptionitems">Private Pain Level Tracker</li>
-            <li className="descriptionitems">Date and Time Form Inputs</li>
-            <li className="descriptionitems">Large Text and Features for Accessibility</li>
-            </ul>
-            </div>
+          <div className="column">This is an app designed to allow users to easily record how a specific pain or ailment is progressing over time.  Ideally this would help doctors looking for more accurate self-reporting.  This is an MVC format app with full CRUD functinality.  The database was created with MongoDB.  Authentication was created with bcrypt and express-session to allow users to sign up, sign in, and log out, with sole access to their private data. Features include: User Authentication, Private Pain level tracker, datae and time form inputes, large text for accessibility.</div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
             <ul>
@@ -190,7 +159,7 @@ class Main extends Component {
             </div>
           dark={true}
           id="dailypaintracker"
-          skilltwo=<div className="paintrackerss"><img className="paintrackerss" src={PaintrackerSS}/><img className="paintrackerss2" src={PaintrackerSS2}/></div>
+          skilltwo=<img className="paintrackerss" src={PaintrackerSS}/>
           skillthree=<div className="demolinks"><a href="https://fierce-scrubland-02207.herokuapp.com//">
             <img alt="herokudemoicon" src={herokudemoicon}/></a>
             <a href="https://github.com/dmcmcmahon714/seir-projects2">
@@ -201,15 +170,7 @@ class Main extends Component {
         <Section
           title=<h1 className="title3">Chicago Tow Find</h1>
           skillone=<div className="sitedescription">
-          <div className="column">Chicago tow find is an html website that allows users to see if their car has been towed in Chicago on a given date.  The app is built with simple html, css, and javascript utilizing jquery.  The information is pulled from the official City of Chicago public API via AJAX request.</div>
-          <div className="column">
-          <p className="features">Features:</p>
-           <ul>
-            <li className="descriptionitems">Access to Chicago Public Database</li>
-            <li className="descriptionitems">Find Vehicle by Plate, Make, and Style</li>
-            <li className="descriptionitems">Current for Past 60 days</li>
-            </ul>
-            </div>
+          <div className="column">Chicago tow find is an html website that allows users to see if their car has been towed in Chicago on a given date.  The app is built with simple html, css, and javascript utilizing jquery.  The information is pulled from the official City of Chicago public API via AJAX request. Features include: Access to Chicago Public Database, Find vehicle by Palte, Make, and Style, Info Current for past 60 days.</div>
             <div className="column">
             <p className="features">Technoligies Used:</p>
             <ul className="jamstech">
@@ -223,7 +184,7 @@ class Main extends Component {
             </div>
           dark={true}
           id="chicagotowfind"
-          skilltwo=<img src={ChicagotowfindSS} alt="chitowfind"/>
+          skilltwo=<img className="towfind" src={ChicagotowfindSS} alt="chitowfind"/>
           skillfour=<div className="demolinks"><a href="https://dmcmcmahon714.github.io/Project-1//">
             <img alt="githubpagesicon" src={githubpagesicon}/></a>
             <a href="https://github.com/dmcmcmahon714/Project-1">

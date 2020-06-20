@@ -398,16 +398,14 @@ p.skillssection {
 
 
 
-img.paintrackerss {
-  margin-top: 1em;
-  padding-right: 2em;
-
- 
-}
+img 
 
 div.paintrackerss {
   margin: 0 auto;
   margin-left: 0%;
+  display: flex;
+  float: right;
+
 }
 
 
@@ -425,18 +423,18 @@ p.backtotop {
 
 .column {
   float: left;
-  width: 33.33%;
+  width: 30%;
   text-align: justify;
   margin: 0 auto;
-  padding-bottom: 0;
+  padding-left: 12em;
   font-family: 'Khula', sans-serif;
   font-weight: bold;
 
 }
 
 .descriptionitems {
-  width: 75%;
-  margin-left: 9em;
+  width: 40%;
+  margin-left: 1em;
 }
 
 ul.jamstech {
@@ -452,14 +450,13 @@ ul.libstech {
 
 .sitedescription:after {
   content: "";
-  display: table;
-  clear: both;
+
+
 }
 
 p.features {
   margin: 0 auto;
   text-align: left;
-  padding-left: 9em;
   padding-bottom: .5em;
   font-weight: bold;
 }
@@ -515,6 +512,8 @@ div.paintrackerdescription {
   font-size: 12px;
   width: 75%;
   margin: 0 auto;
+  margin-top: 3em;
+  align-items: center;
 }
 
 ul.projectlinks {
@@ -532,3 +531,19 @@ ul.aboutlinks {
 p.aboutblurb {
   margin-top: 1.5em;
 }
+
+li.descriptionitems {
+  margin-left: .2em;
+  text: wrap;
+}
+
+img.paintrackerss {
+  margin: 0 auto;
+  margin-top: 0;
+  margin-right: 20em;
+  padding-left: 17em;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+
