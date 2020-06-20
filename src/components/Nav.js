@@ -115,7 +115,7 @@ class Nav extends Component {
                   <li>
             <Link
                 activeClass="active"
-                to="contact"
+                to="resume"
                 spy={true}
                 smooth={true}
                 offset={-70}
