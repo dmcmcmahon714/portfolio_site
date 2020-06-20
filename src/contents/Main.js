@@ -32,6 +32,7 @@ import PaintrackerSS2 from '../img/paintrackerss2.png'
 import ChicagotowfindSS from '../img/chicagotowfind.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 import backtotop from '../img/backtotop.png'; 
+import resume from '../img/resume.png';
 
 
 class Main extends Component {
@@ -265,7 +266,7 @@ class Main extends Component {
             />
 
         <Section
-            title=<h1 className="contact">Contact</h1>
+            title=<h1 className="resume">Contact</h1>
             skillthree=<a className="email" href="danielrichardmcmahon@gmail.com">email: danielrichardmcmahon@gmail.com</a>
             skillfive=<p className="phone">Phone: +1(312)810-9540</p>
             skillsix=<div className="links"><a className="linklogos" href="https://www.linkedin.com/in/danmcmahondev/"><img alt="linkedinlogo" src={linkedinlogo}/></a>
@@ -273,6 +274,14 @@ class Main extends Component {
             dark={true}
             id="contact"
             skillseven=<img src={backtotop} className="contact" alt="Logo" onClick={this.scrollToTop}/>
+            />
+
+          <Section
+            title=<h1 className="resume">Resume</h1>
+            dark={true}
+            id="resume"
+            skilltwo=<img src={resume}/>
+            skillthree=<img src={backtotop} className="resume" alt="Logo" onClick={this.scrollToTop}/>
             />
 
         

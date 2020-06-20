@@ -161,6 +161,14 @@ h1.contact {
   padding-bottom: 0;
 }
 
+h1.resume {
+  font-family: 'Spartan', sans-serif;
+  color: #AA1854;
+  font-size: 45px;
+  margin-top: 3em;
+}
+
+
 a.email {
   font-size: 1.5em;
   text-decoration: none;
