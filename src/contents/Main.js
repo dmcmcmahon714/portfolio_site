@@ -180,7 +180,7 @@ class Main extends Component {
             </div>
           dark={true}
           id="chicagotowfind"
-          skilltwo=<a href="https://github.com/dmcmcmahon714/Project-1/"><img src={ChicagotowfindSS} img className="towfind"/></a>
+          skilltwo=<a href="https://dmcmcmahon714.github.io/Project-1/"><img src={ChicagotowfindSS} img className="towfind"/></a>
           skillfour=<div className="demolinks">
             <a href="https://github.com/dmcmcmahon714/Project-1/">
             <img alt="githubsmall" src={githubsmall}/></a></div>
